@@ -10,6 +10,7 @@ Projemizin amacı kişilerin üstüne giydikleri kıyafetlerin renklerini tespit
 -Kişi tespitleri ve sırayla adlandırılması
 
 -Aynı mekanlarda veya farklı mekanlarda kişi takip sistemi
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Kurulum
 
