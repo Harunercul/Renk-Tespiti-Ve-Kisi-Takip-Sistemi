@@ -8,6 +8,7 @@ Projemizin amacı kişilerin üstüne giydikleri kıyafetlerin renklerini tespit
 -Aynı mekanlarda veya farklı mekanlarda kişi takip sistemi
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Kurulum
+
 İlk olarak opencv kullanarak contour kavramından faydalanıyoruz. Contour kavramını kişinin üstüne giydiği kıyafetin rengini ele alarak areasını ortalama bize veriyor bu areayı kullanarak kişinin sadece üstündeki rengi tespit etmemizde sağlamaktadır. Contour.py dosyasında kodu bulunmaktadır
 ![image](https://user-images.githubusercontent.com/105969081/216791851-4c0e9a46-7a77-4cc9-9b7e-ac2b327237c9.png)
 
