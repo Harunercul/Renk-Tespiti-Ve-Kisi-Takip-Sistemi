@@ -4,8 +4,11 @@ Projemizin amacı kişilerin üstüne giydikleri kıyafetlerin renklerini tespit
 #Projemizin Genel Amaçları
 
 -Kişilerin üstüne giydiği kıyafetlerin renk tespiti
+
 -Kişilerin giydiği renge göre kişi takip sistemi
+
 -Kişi tespitleri ve sırayla adlandırılması
+
 -Aynı mekanlarda veya farklı mekanlarda kişi takip sistemi
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Kurulum
