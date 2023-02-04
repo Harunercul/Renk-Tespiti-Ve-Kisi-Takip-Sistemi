@@ -14,10 +14,21 @@ Projemizin amacı kişilerin üstüne giydikleri kıyafetlerin renklerini tespit
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Kurulum
 
+1)Contour Kavramı
 İlk olarak opencv kullanarak contour kavramından faydalanıyoruz. Contour kavramını kişinin üstüne giydiği kıyafetin rengini ele alarak areasını ortalama bize veriyor bu areayı kullanarak kişinin sadece üstündeki rengi tespit etmemizde sağlamaktadır. Contour.py dosyasında kodu bulunmaktadır
 ![image](https://user-images.githubusercontent.com/105969081/216791851-4c0e9a46-7a77-4cc9-9b7e-ac2b327237c9.png)
 
+2)HSV Renk Kodu Öğrenme
 Sonraki adım olarak hangi renkleri tespit etmek istiyorsak özel olarak HSV renk değerlerini tespit etmemiz lazım. renkkoduöğrenme.py dosyasından elde edebiliriz.
 ![image](https://user-images.githubusercontent.com/105969081/216792178-68d77374-f765-4dc1-a11b-392cceb98007.png)
 
-Sonrasında kişilerin giydiği kıyafetlerindeki rekleri tespit ediyoruz. Renk
+3)Renk Tespiti
+Sonrasında kişilerin giydiği kıyafetlerindeki rekleri tespit ediyoruz. Renktespiti.py dosyasısında mevcut burda istenilen videonun adresini giriyorsunuz.
+
+4)Labelİmg
+Labelİmg kullanarak videolardan elde edilen görüntüleri data set haline getiriyoruz Yolo formatında
+
+5)YoloV5
+Renk tespiti yaptıkdan sonra elde edilen video çıktımızı Google Colab ortamında kullanıyoruz. Labelİmg kullanarak elde edilen data set YoloV5 formatında eğitilir eğitildikten sonra renk tespiti video çıktımızı işliyoruz.
+
+
